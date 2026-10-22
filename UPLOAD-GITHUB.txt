@@ -1,0 +1,13 @@
+HƯỚNG DẪN ĐẨY WEBSITE + 7 VIDEO LÊN GITHUB
+
+1. Giải nén webdemo-7video-github.zip trên Windows.
+2. Mở thư mục webdemo vừa giải nén.
+3. Mở PowerShell trong thư mục đó.
+4. Chạy:
+   powershell -NoProfile -ExecutionPolicy Bypass -File .\upload-to-github.ps1
+5. Đăng nhập GitHub nếu được yêu cầu.
+6. Xem thành quả tại https://github.com/HuyentnPh32568/webdemo
+7. Sau khi đẩy thành công, Vercel sẽ tự triển khai lại nếu repo đã được import.
+
+Cần Git for Windows. Không cần Git LFS vì mỗi video bản nén dưới 100 MB.
+Lưu ý: email và các trang mạng xã hội trong portfolio vẫn là nội dung mẫu.
